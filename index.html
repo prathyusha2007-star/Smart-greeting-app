@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Greetings</title>
+    </head>
+    <body>
+        <h2>Enter your name:</h2>
+        <input id="name" type="text">
+        <button id="btn">submit</button>
+        <h2 id="result"></h2>
+    </body>
+    <script>
+        let button=document.getElementById("btn");
+        button.addEventListener("click",func);
+        function func(){
+        let element=document.getElementById("result");
+        let name=document.getElementById("name").value;
+        if(name==""){
+            element.innerHTML="Please enter your name.";
+            element.style.color="red";
+        }
+        else{
+        element.innerHTML="Hello "+name;
+        element.style.color="blue";
+        element.style.backgroundColor="pink";
+        }
+        }
+    </script>
+</html>
