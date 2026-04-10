@@ -1,0 +1,21 @@
+
+
+body{
+background-color:lightblue;
+}
+
+h1{
+color:darkblue;
+}
+
+input{
+padding:8px;
+border:2px solid black;
+}
+
+button{
+background-color:black;
+color:white;
+padding:8px;
+border:none;
+}
